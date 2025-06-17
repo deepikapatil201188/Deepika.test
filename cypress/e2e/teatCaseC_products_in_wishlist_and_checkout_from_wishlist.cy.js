@@ -1,8 +1,8 @@
-import HomePage from '../pages/HomePage';
-import ProductPage from '../pages/ProductPage';
-import WishlistPage from '../pages/WishlistPage';
-import LoginPage from '../pages/LoginPage';
-import CheckoutPage from '../pages/CheckoutPage';
+import HomePage from '../pages/home-page';
+import ProductPage from '../pages/product-page';
+import WishlistPage from '../pages/wishlist-Page';
+import LoginPage from '../pages/login-page';
+import CheckoutPage from '../pages/checkout-page';
 
 describe('Add products to Wishlist and checkout from Wishlist', () => {
   let userData, products;

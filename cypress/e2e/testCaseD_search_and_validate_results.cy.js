@@ -1,5 +1,6 @@
-import HomePage from '../pages/HomePage';
-import SearchPage from '../pages/SearchPage';
+import HomePage from '../pages/home-page';
+import SearchPage from '../pages/search-page';
+
 
 describe('Search and validate results', () => {
   let searchData;

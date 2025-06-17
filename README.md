@@ -22,8 +22,9 @@ This project automates key user flows on [Magento Test Site](https://magento.sof
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/magento-automation.git
-   cd magento-automation
+   git clone 
+   git clone https://github.com/deepikapatil201188/Deepika.test.git
+   cd deepika_cypress 
    ```
 
 2. **Install dependencies:**

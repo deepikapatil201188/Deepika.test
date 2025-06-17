@@ -1,8 +1,8 @@
-import HomePage from '../pages/HomePage';
-import ProductPage from '../pages/ProductPage';
-import CartPage from '../pages/CartPage';
-import CheckoutPage from '../pages/CheckoutPage';
-import LoginPage from '../pages/LoginPage';
+import HomePage from '../pages/home-page';
+import ProductPage from '../pages/product-page';
+import CartPage from '../pages/cart-page';
+import CheckoutPage from '../pages/-checkout-page';
+import LoginPage from '../pages/login-page';
 
 describe('Place order with multiple products and price calculation checks', () => {
   let userData, products;

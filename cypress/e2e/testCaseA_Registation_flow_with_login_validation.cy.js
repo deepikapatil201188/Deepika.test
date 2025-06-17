@@ -1,5 +1,5 @@
-import RegistrationPage from '../pages/RegistrationPage';
-import LoginPage from '../pages/LoginPage';
+import RegistrationPage from '../pages/registration-page';
+import LoginPage from '../pages/login-page';
 
 describe('Registration Flow with Login Validation', () => {
   let userData;
