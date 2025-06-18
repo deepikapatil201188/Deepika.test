@@ -7,6 +7,10 @@ class ProductPage {
         
         Object.freeze(this);
     }
+     // Select a product from the search results by name
+  selectProductFromResults(productName) {
+    cy.contains('.product-item-info', productName).find('a.product-item-link').click();
+  }
 
     openProductPage(productName) {
         cy.get(this.productCard(productName)).click();

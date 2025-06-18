@@ -2,6 +2,9 @@ class HomePage {
     visit() {
         cy.visit('/');
     }
+    searchProduct(productName) {
+    cy.get('input#search').clear().type(`${productName}{enter}`);
+  }
 
     getWhatsNewMenu() {
         return cy.get('nav.navigation ul > li.nav-1 > a[href$="what-is-new.html"]')
